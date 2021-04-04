@@ -176,6 +176,9 @@ export function AdvancedFilterTable({
                                     itemSize={30}
                                     width={table.totalColumnsWidth}
                                     ref={scrollRef}
+                                    style={{
+                                        overflow: "visible",
+                                    }}
                                 >
                                     {renderRow}
                                 </FixedSizeList>
